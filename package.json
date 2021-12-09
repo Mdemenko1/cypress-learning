@@ -1,0 +1,25 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "automated software testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1",
+    "lodash": "^4.17.21",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178"
+  }
+}
